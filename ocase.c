@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-void o(int *x, char b[9], int size){
+void o(int *x, char *b, int size){
     srand((unsigned int) time(NULL));
     if(*x == 0){
             b[0] = 'O';
-            b[rand()%9] = 'X';
+            if(b[rand()%9 != 'O']){
+                b[rand()%9] = 'X';
+            }
             printf("%c %c %c \n", b[0], b[1], b[2]);
             printf("%c %c %c \n", b[3], b[4], b[5]);
             printf("%c %c %c \n", b[6], b[7], b[8]);
@@ -47,7 +49,7 @@ void o(int *x, char b[9], int size){
         }
         else if(*x== 6){
             b[6] = 'O';
-            b[rand()%9] = 'X';
+            //b[rand()%9] = 'X';
             printf("%c %c %c \n", b[0], b[1], b[2]);
             printf("%c %c %c \n", b[3], b[4], b[5]);
             printf("%c %c %c \n", b[6], b[7], b[8]);

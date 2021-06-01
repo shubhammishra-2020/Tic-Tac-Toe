@@ -7,5 +7,5 @@ You will need:
 ```git clone https://github.com/shubhammishra-2020/Tic-Tac-Toe.git ```
 
 ## How to play the game
-1. Navigate to the directory of the file that you downloaded.
-2. In terminal, run the command ./test (for the executable file)
+1. Open terminal on your PC/Mac and navigate to directory that the file was installed using ```cd``` command
+2. Once in directory, run the program by running: ``` ./test ``` (This should run the executable file named test)

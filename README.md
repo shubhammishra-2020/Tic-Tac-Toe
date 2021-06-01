@@ -1,5 +1,5 @@
-# Tic-Tac-Toe
-Tic Tac Toe is a game programmed in C.
+# Tic-Tac-Toe Project
+
 ## How to run the game
 You will need:
 * GCC compiler [Install Link](https://gcc.gnu.org/install/) 

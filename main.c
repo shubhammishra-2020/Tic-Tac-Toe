@@ -24,7 +24,7 @@ int main() {
 
             //horizontal winning
             if(board[0] == board[1] && board[1] == board[2]){
-                printf("%c is the winner!!!! \n", board[0]);
+                printf("%c is the winner!!!!! \n", board[0]);
                 break;
             }
             else if(board[3] == board[4] && board[4] == board[5]){

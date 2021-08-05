@@ -147,7 +147,7 @@ int main() {
                 break;
             }
             else if(board[2] == board[5] && board[5] == board[8]){
-                printf("%c is the winner!!!! \n", board[2]);
+                printf("%c is the winner!!! \n", board[2]);
                 break;
             }
         }
